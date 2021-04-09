@@ -49,6 +49,7 @@ export function ServicesSection(): JSX.Element {
 
           {services.map(service => (
             <ServiceItem
+              key={service.title}
               title={service.title}
               description={service.description}
               imgSrc={service.imgSrc}

@@ -50,7 +50,11 @@ export const AboutUs: React.FC = () => {
 
           <div>
             {founders.map(founder => (
-              <Founder imgSrc={founder.imgSrc} name={founder.name} />
+              <Founder
+                key={founder.name}
+                imgSrc={founder.imgSrc}
+                name={founder.name}
+              />
             ))}
           </div>
         </div>

@@ -17,8 +17,10 @@ export const Footer: React.FC = () => {
           </p>
 
           <span>
-            Esse website se trata de um trabalho acadêmico e todas as
-            informações contidas nas páginas são totalmente fictícias.
+            Esse website se trata de um trabalho acadêmico para a Universidade
+            Ibirapuera, disciplina de Pesquisa Operacional lecionada pelo
+            professor Nilton Moreira e todas as informações contidas nesta
+            página são totalmente fictícias.
           </span>
         </div>
       </div>

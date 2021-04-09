@@ -41,6 +41,9 @@ body {
   background: var(--background);
   color: var(--black);
   overflow-x: hidden;
+  position: relative;
+
+  -webkit-font-smoothing: antialiased;
 }
 
 body, input, textarea, select, button {
@@ -54,4 +57,20 @@ button {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--blue-social);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--blue-button);
 }
