@@ -7,7 +7,7 @@ import styles from './contacts.module.scss';
 export const ContactsSection: React.FC = () => {
   return (
     <>
-      <div className={styles.container}>
+      <div className={styles.container} id="contact">
         <div className={styles.content}>
           <h2>Contato</h2>
           <p>Entre em contato conosco através das nossas redes sociais:</p>

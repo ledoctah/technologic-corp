@@ -28,7 +28,7 @@ const founders: Founder[] = [
 export const AboutUs: React.FC = () => {
   return (
     <>
-      <div className={styles.container}>
+      <div className={styles.container} id="aboutus">
         <div className={styles.content}>
           <h2>Sobre nós</h2>
           <p>
