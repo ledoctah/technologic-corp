@@ -1,4 +1,5 @@
 import { AboutUs } from '../components/AboutUs';
+import { ContactsSection } from '../components/ContactsSection';
 import { Header } from '../components/Header';
 import { Hero } from '../components/Hero';
 import { ServicesSection } from '../components/ServicesSection';
@@ -13,6 +14,8 @@ export default function Home(): JSX.Element {
       <ServicesSection />
 
       <AboutUs />
+
+      <ContactsSection />
     </>
   );
 }
