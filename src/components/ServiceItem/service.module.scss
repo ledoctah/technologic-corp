@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+
+  img {
+    width: 20rem;
+  }
+
+  img + section,
+  section + img {
+    margin-left: 3rem;
+  }
+
+  section {
+    h3 {
+      color: var(--blue-subtitle);
+      font-size: 1.3rem;
+    }
+
+    p {
+      margin-top: 1.5rem;
+      text-align: justify;
+      font-size: 1.125rem;
+    }
+  }
+}

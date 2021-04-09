@@ -1,0 +1,57 @@
+.container {
+  height: 22rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  position: absolute;
+
+  background-image: url('/images/herobackground.jfif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+
+  height: 22rem;
+  filter: blur(2px) brightness(.7);
+
+  transform: scale(1.01);
+
+  z-index: -1;
+}
+
+.content {
+  max-width: 1120px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  > div,
+  > p,
+  > button,
+  > a {
+    margin-top: 1.5rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--white);
+  }
+
+  p {
+    font-size: 1.5rem;
+    color: var(--white);
+  }
+
+  button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

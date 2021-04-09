@@ -1,7 +1,18 @@
+import { AboutUs } from '../components/AboutUs';
+import { Header } from '../components/Header';
+import { Hero } from '../components/Hero';
+import { ServicesSection } from '../components/ServicesSection';
+
 export default function Home(): JSX.Element {
   return (
     <>
-      <h1>Hello Technologic Corp</h1>
+      <Header />
+
+      <Hero />
+
+      <ServicesSection />
+
+      <AboutUs />
     </>
   );
 }
