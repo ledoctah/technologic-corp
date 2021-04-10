@@ -3,6 +3,8 @@
 
   padding: 1rem;
 
+  border: 2px solid transparent;
+
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -10,6 +12,14 @@
   background: var(--white);
 
   cursor: text;
+
+  &.focused {
+    border-color: var(--blue-button);
+
+    svg {
+      color: var(--blue-button);
+    }
+  }
 
   input {
     width: 100%;
