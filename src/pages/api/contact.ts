@@ -2,6 +2,7 @@ import { NextApiRequest, NextApiResponse } from 'next';
 import { format } from 'date-fns';
 import ptBr from 'date-fns/locale/pt-BR';
 import * as yup from 'yup';
+import path from 'path';
 
 import ZohoMailService from '../../services/ZohoMailService';
 import HandlebarsService from '../../services/HandlebarsService';
@@ -52,7 +53,7 @@ export default async (
   const mailService = new ZohoMailService();
   const handlebars = new HandlebarsService();
 
-  const file = './src/templates/contact.hbs';
+  const file = path.resolve('./src/handlebars/contact.hbs');
 
   const html = await handlebars.parse({
     file,

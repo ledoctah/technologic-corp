@@ -3,7 +3,7 @@ import * as yup from 'yup';
 import { FiType, FiMail, FiVoicemail } from 'react-icons/fi';
 import { toast } from 'react-toastify';
 
-import axios from '../../pages/api/axios';
+import axios from '../../services/axios';
 
 import { Button } from '../Button';
 import { Input } from '../Input';
