@@ -6,6 +6,8 @@ interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   name: string;
   inputType?: 'textarea' | 'input';
   Icon?: React.ElementType;
+  state?: string;
+  setState?: (value: string) => void;
 }
 
 export const Input: React.FC<InputProps> = ({
@@ -14,8 +16,18 @@ export const Input: React.FC<InputProps> = ({
   type,
   inputType = 'input',
   Icon,
+  state,
+  setState,
   ...rest
 }) => {
+  function handleChange(
+    e:
+      | React.ChangeEvent<HTMLInputElement>
+      | React.ChangeEvent<HTMLTextAreaElement>
+  ): void {
+    setState(e.target.value);
+  }
+
   return (
     <>
       <label className={styles.container} htmlFor={name}>
@@ -27,10 +39,19 @@ export const Input: React.FC<InputProps> = ({
             name={name}
             type={type}
             placeholder={placeholder}
+            onChange={handleChange}
+            value={state}
             {...rest}
           />
         ) : (
-          <textarea rows={6} id={name} name={name} placeholder={placeholder} />
+          <textarea
+            rows={6}
+            id={name}
+            name={name}
+            placeholder={placeholder}
+            onChange={handleChange}
+            value={state}
+          />
         )}
       </label>
     </>

@@ -11,9 +11,18 @@
   font-size: 1rem;
   letter-spacing: 1px;
 
-  transition: filter .5s;
+  transition: all .5s;
+
+  span {
+    width: 1rem;
+    height: 1rem;
+  }
 
   &:hover {
     filter: brightness(.9);
+  }
+
+  &:disabled {
+    background-color: var(--gray-text);
   }
 }

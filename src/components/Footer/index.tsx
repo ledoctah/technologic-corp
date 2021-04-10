@@ -1,3 +1,5 @@
+import { SocialSection } from '../SocialSection';
+
 import styles from './footer.module.scss';
 
 export const Footer: React.FC = () => {
@@ -15,6 +17,8 @@ export const Footer: React.FC = () => {
           <p>
             Av. Interlagos, 1329 - 4º - Chácara Flora, São Paulo - SP, 04661-100
           </p>
+
+          <SocialSection />
 
           <span>
             Esse website se trata de um trabalho acadêmico para a Universidade

@@ -1,0 +1,18 @@
+.socialsection {
+  display: block;
+
+  margin: 0.525rem 0;
+
+  a {
+    display: inline-block;
+
+    img {
+      width: 2rem;
+      border-radius: 8px;
+    }
+
+    & + a {
+      margin-left: 0.825rem;
+    }
+  }
+}
