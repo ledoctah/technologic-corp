@@ -32,4 +32,14 @@
     display: flex;
     justify-content: space-around;
   }
+
+  @media(max-width: 540px) {
+    h2 {
+      margin-top: 0;
+    }
+
+    div {
+      flex-direction: column;
+    }
+  }
 }

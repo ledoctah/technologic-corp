@@ -9,7 +9,12 @@ export function Hero(): JSX.Element {
         <div className={styles.content}>
           <h1>Soluções inteligentes de TI</h1>
           <p>Techno Logic, o melhor amigo para o seu negócio.</p>
-          <Button text="Quero saber mais" type="button" />
+          <Button
+            href="/#ourservices"
+            isAnchor
+            text="Quero saber mais"
+            type="button"
+          />
         </div>
       </div>
     </>

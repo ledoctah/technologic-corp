@@ -19,6 +19,42 @@
   }
 
   div + div {
-    margin-top: 3rem;
+    margin-top: 4rem;
+  }
+
+  @media(max-width: 280px) {
+    div {
+      img {
+        display: none;
+      }
+    }
+
+    div + div {
+      margin-top: 1rem;
+    }
+  }
+
+  @media(max-width: 620px) {
+    h2 {
+      text-align: center;
+    }
+
+    div {
+      flex-direction: column;
+
+      img {
+        width: 16rem;
+        margin: 0 auto;
+      }
+
+      &:nth-child(odd) {
+        flex-direction: column-reverse;
+      }
+
+      section {
+        margin: 2rem 0 auto;
+        text-align: center;
+      }
+    }
   }
 }
