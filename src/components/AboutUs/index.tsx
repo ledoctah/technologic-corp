@@ -9,19 +9,23 @@ interface Founder {
 const founders: Founder[] = [
   {
     name: 'Alisson Silva',
-    imgSrc: '/images/alisson.jfif',
+    imgSrc:
+      'https://ledoctah-app-technology.s3.us-east-2.amazonaws.com/alisson.jfif',
   },
   {
     name: 'Caique Marques',
-    imgSrc: '/images/caique.jfif',
+    imgSrc:
+      'https://ledoctah-app-technology.s3.us-east-2.amazonaws.com/caique.jfif',
   },
   {
     name: 'Marco Pereira',
-    imgSrc: '/images/marco.jfif',
+    imgSrc:
+      'https://ledoctah-app-technology.s3.us-east-2.amazonaws.com/marco.jfif',
   },
   {
     name: 'Matheus Fereira',
-    imgSrc: '/images/matheus.jfif',
+    imgSrc:
+      'https://ledoctah-app-technology.s3.us-east-2.amazonaws.com/matheus.jfif',
   },
 ];
 

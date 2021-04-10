@@ -8,13 +8,13 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="159mm"
-   height="79mm"
-   viewBox="0 0 159 79"
+   width="161mm"
+   height="82mm"
+   viewBox="0 0 161 82"
    version="1.1"
    id="svg8"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
-   sodipodi:docname="Logo1 (1).svg">
+   sodipodi:docname="logo.svg">
   <defs
      id="defs2">
     <linearGradient
@@ -106,7 +106,7 @@
        x2="179.96021"
        y2="126.73543"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-20.398405,-87.498787)" />
+       gradientTransform="translate(-19.869238,-85.911286)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient1215"
@@ -116,7 +116,7 @@
        x2="107.75841"
        y2="128.11499"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-18.810905,-88.557121)" />
+       gradientTransform="translate(-18.281738,-86.96962)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient1183"
@@ -298,19 +298,19 @@
        id="rect837"
        width="159.4747"
        height="29.860121"
-       x="0.043554779"
-       y="24.30658"
+       x="0.57272142"
+       y="25.894081"
        ry="11.141835" />
     <ellipse
        style="opacity:0.999;mix-blend-mode:difference;fill:none;fill-opacity:1;stroke:url(#linearGradient1217);stroke-width:3.35139;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path849"
-       cx="46.743793"
-       cy="39.557877"
+       cx="47.272961"
+       cy="41.145378"
        rx="40.528019"
        ry="37.882183" />
     <g
        aria-label="Techno Logic"
-       transform="matrix(0.92988016,0,0,1.0754074,-20.398405,-87.498787)"
+       transform="matrix(0.92988016,0,0,1.0754074,-19.869238,-85.911286)"
        id="text853"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9333px;line-height:1.75;font-family:DymaxionScript;-inkscape-font-specification:DymaxionScript;text-align:center;letter-spacing:5.19642px;word-spacing:0.738187px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.284535">
       <path
@@ -362,7 +362,7 @@
        aria-label="Smart solutions"
        id="text1177"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.15;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';fill:#0000db;fill-opacity:1;stroke:url(#linearGradient1185);stroke-width:0.264583;stroke-opacity:0.983936"
-       transform="translate(-20.398405,-87.498787)">
+       transform="translate(-19.869238,-85.911286)">
       <path
          d="m 143.92761,137.40302 q 0,0.11816 -0.0748,0.19292 -0.0724,0.0748 -0.19051,0.0748 h -0.95016 q -0.11817,0 -0.19534,-0.0748 -0.0748,-0.0748 -0.0748,-0.19292 v -0.9574 h 0.33521 v 0.92846 h 0.81511 v -0.89952 l -1.0418,-1.25884 Q 142.442,135.0855 142.442,134.92875 v -0.76447 q 0,-0.11817 0.0748,-0.19292 0.0772,-0.0748 0.19534,-0.0748 h 0.95016 q 0.11816,0 0.19051,0.0748 0.0748,0.0747 0.0748,0.19292 v 0.87781 h -0.33521 v -0.84887 h -0.81511 v 0.79582 l 1.04662,1.25884 q 0.1037,0.1254 0.1037,0.28215 z"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';fill:#0000db;fill-opacity:1;stroke:url(#linearGradient877);stroke-width:0.264583;stroke-opacity:0.983936"
