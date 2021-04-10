@@ -53,7 +53,7 @@ export default async (
   const mailService = new ZohoMailService();
   const handlebars = new HandlebarsService();
 
-  const file = path.resolve('./src/handlebars/contact.hbs');
+  const file = path.resolve('./public/templates/contact.hbs');
 
   const html = await handlebars.parse({
     file,
