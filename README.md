@@ -18,7 +18,7 @@ Techno Logic is a fictional corporation that offers to its client the best IT so
 This application contains the source code for our <a href="https://technologic.page" target="_blank">website</a>.
 </p>
 <p>
-This application was made to a college test at Ibirapuera University with orientation of professor Nilton Moreira.
+This application was made to a college test at Ibirapuera University under guidence of professor Nilton Moreira.
 </p>
 
 # 📎 How to access?
