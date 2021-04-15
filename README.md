@@ -18,7 +18,7 @@ Techno Logic is a fictional corporation that offers to its client the best IT so
 This application contains the source code for our <a href="https://technologic.page" target="_blank">website</a>.
 </p>
 <p>
-This application was made to a college test at Ibirapuera University under guidence of professor Nilton Moreira.
+This application was made to a college test at Ibirapuera University under the guidence of professor Nilton Moreira.
 </p>
 
 # 📎 How to access?
@@ -28,8 +28,8 @@ You can access this app clicking <a href="https://technologic.page">here</a>.
 </p>
 
 # 🌟 Features
-- Lading page
-- Working email sending (you can try this at "Contato" section in website)
+- Landing page
+- Email sending (you can try this at "Contato" section on website)
 - Mobile responsive
 - Instagram and WhatsApp
 
