@@ -21,12 +21,6 @@ This application contains the source code for our <a href="https://technologic.p
 This application was made to a college test at Ibirapuera University under the guidence of professor Nilton Moreira.
 </p>
 
-# 📎 How to access?
-
-<p>
-You can access this app clicking <a href="https://technologic.page">here</a>.
-</p>
-
 # 🌟 Features
 - Landing page
 - Email sending (you can try this at "Contato" section on website)
